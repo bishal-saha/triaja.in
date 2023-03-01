@@ -1,0 +1,51 @@
+// <!--Sc Faq CSS -->
+.sc-faq-pages-area {
+    .accordion-item {
+        border: none;
+        margin-bottom: 15px;
+        padding: 8px 0;
+        background: #f8f7f7;
+        border-radius: 10px;
+        .accordion-header {
+            .accordion-button {
+                font-size: 18px;
+                color: #424242;
+                font-weight: 500;
+                position: relative;
+                background: #f8f7f7;
+                &:before {
+                    position: absolute;
+                    top: 15px;
+                    right: 25px;
+                    font-family: "remixicon";
+                    content: "\ea78";
+                    color: $titleColor;
+                    font-size: 20px;
+                    transform: rotate(-180deg);
+                }
+                &:not(.collapsed) {
+                    color: $primaryColor;
+                    box-shadow: none;
+                    &:before {
+                        content: "\ea4e";
+                        color: $primaryColor;
+                    }
+                }
+                &:focus {
+                    box-shadow: none;
+                }
+                &:after {
+                    display: none;
+                }
+            }
+        }
+        .accordion-body {
+            padding-top: 0;
+            strong {
+                font-size: 16px;
+                color: $bodyColor;
+                font-weight: 400;
+            }
+        }
+    }
+}

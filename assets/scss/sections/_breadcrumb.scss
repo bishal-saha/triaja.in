@@ -1,0 +1,18 @@
+// <!--Sc breadcrumb CSS -->
+.sc-breadcrumb-style {
+    background: url(../images/bg/breadcrumb.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .sc-slider-subtitle {
+        font-weight: 600;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #fff;
+        background: rgba($color: #fff, $alpha: 0.1);
+        display: inline-block;
+        padding: 9px 22px 5px;
+        border-left: 2px solid $primaryColor;
+        margin-bottom: 18px;
+    }
+}

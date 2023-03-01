@@ -1,0 +1,243 @@
+// <!--Sc About CSS -->
+.sc-about-left-content {
+    .sc-ab-image {
+        img {
+            margin-bottom: 30px;
+        }
+        .des {
+            display: block;
+            margin-bottom: 40px;
+            max-width: 595px;
+        }
+    }
+    .sc-about-auother-box {
+        .sc-about-btn {
+            margin-right: 20px;
+        }
+        .sc-auother-content {
+            position: relative;
+            top: -4px;
+            .sc-auother-image {
+                margin-right: 10px;
+            }
+            .sc-auother-text {
+                font-weight: 600;
+                font-size: 20px;
+                transition: 0.4s;
+                color: $titleColor;
+            }
+            span {
+                font-size: 15px;
+                color: $primaryColor;
+            }
+        }
+    }
+}
+.sc-about-service-box {
+    background: #f7f7f7;
+    padding: 40px 35px 15px;
+    @include transition();
+    position: relative;
+    overflow: hidden;
+    &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        bottom: -100%;
+        background-color: $primaryColor;
+        visibility: hidden;
+        opacity: 0;
+        @include transition();
+    }
+    .icomoon {
+        background: $primaryColor;
+        width: 80px;
+        height: 80px;
+        display: inline-block;
+        line-height: 80px;
+        text-align: center;
+        border-radius: 50%;
+        color: #fff;
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    .icon-startup {
+        font-size: 45px;
+    }
+    .icon-financial,
+    .icon-risk {
+        font-size: 35px;
+    }
+    .title {
+        color: $titleColor;
+        @include transition();
+        margin-bottom: 15px;
+        display: block;
+    }
+    .sc-hover-overly {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        visibility: hidden;
+        @include transition(1s);
+        i {
+            font-size: 150px;
+            color: #f24756;
+        }
+    }
+    &:hover {
+        &::before {
+            opacity: 1;
+            visibility: visible;
+            bottom: 0;
+        }
+        .sc-hover-overly {
+            opacity: 1;
+            visibility: visible;
+        }
+        .icomoon {
+            background: $whiteColor;
+            color: $primaryColor;
+        }
+        .title,
+        .des {
+            color: $whiteColor;
+        }
+    }
+}
+.sc-about-item {
+    .about-icon {
+        i {
+            position: relative;
+            top: 5px;
+            background: #ffffff;
+            box-shadow: 0px 1px 4px rgba(3, 4, 27, 0.05);
+            min-width: 80px;
+            height: 80px;
+            display: inline-block;
+            line-height: 82px;
+            text-align: center;
+            border-radius: 50%;
+            color: #e42032;
+            font-size: 35px;
+            margin-bottom: 25px;
+            transition: 0.4s;
+        }
+    }
+    .sc-process-content {
+        .title {
+            color: $titleColor;
+            transition: 0.4s;
+            &:hover {
+                color: $primaryColor;
+            }
+        }
+    }
+    &:hover {
+        .about-icon {
+            i {
+                color: #fff;
+                background: $primaryColor;
+            }
+        }
+    }
+}
+.sc-about-auother-box {
+    .sc-about-btn {
+        margin-right: 20px;
+    }
+    .sc-auother-content {
+        position: relative;
+        top: -4px;
+        .sc-auother-image {
+            margin-right: 15px;
+        }
+        .sc-auother-text {
+            .title {
+                @include transition();
+                margin-bottom: 0;
+            }
+        }
+        span {
+            font-weight: 500;
+            font-size: 15px;
+        }
+    }
+}
+.sc-about-support {
+    .sc-support-text {
+        .sub-title {
+            font-weight: 500;
+            font-size: 15px;
+        }
+        a {
+            color: $titleColor;
+            font-weight: 700;
+            @include transition();
+            &:hover {
+                color: $primaryColor;
+            }
+        }
+    }
+}
+// sc-about-section-two
+.sc-about-section-two {
+    position: relative;
+    &::before {
+        position: absolute;
+        background: #222;
+        background: url(../images/bg/about-bg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 68%;
+        height: 100%;
+        right: 0;
+        border-radius: 5px;
+        content: "";
+    }
+    .sc-about-container {
+        padding-left: 0;
+    }
+    .sc-about-content-area {
+        display: flex;
+        flex-wrap: wrap;
+        .sc-heading-area {
+            max-width: 585px;
+            .des {
+                font-weight: 400;
+                font-size: 20px;
+                color: #000000;
+            }
+        }
+    }
+    .sc-about-bg-image {
+        flex: 0 0 auto;
+        width: 60px;
+    }
+    .sc-about-bg-image {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .sc-about-text-box {
+        position: relative;
+        width: 50%;
+        flex: 0 0 auto;
+        width: 43.5%;
+        .sc-about-shape {
+            position: absolute;
+            right: -20px;
+            top: 20px;
+        }
+    }
+}
+// sc-about-section-three
+.sc-about-section-three {
+    background: url(../images/bg/about-bg-two.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
