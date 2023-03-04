@@ -1,5 +1,5 @@
 <header class="sc-header-section" id="sc-header-sticky">
-    <div class="sc-topbar-section sc-topbar-section-two">
+    <div class="sc-topbar-section sc-topbar-section-two" >
         <div class="container">
             <!-- Topbar Section Start -->
             <div class="row align-items-center">
@@ -7,9 +7,9 @@
                     <div
                         class="sc-menu-inner p-z-idex d-flex align-items-center justify-content-md-start justify-content-center"
                     >
-                        <div class="sc-header-date">
+                        <div class="sc-header-date" style="margin-right: 100px">
                             <ul class="list-gap sc-date">
-                                <li><i class="icon-timer"></i> One Stop for IT Solutions</li>
+                                <li>One Stop for IT Solutions & BGV</li>
                             </ul>
                         </div>
                         <div class="sc-header-content-left text-center">
@@ -43,9 +43,6 @@
                                 </li>
                                 <li>
                                     <a href="#"> <i class="icon-twiter"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"> <i class="icon-intragram"></i></a>
                                 </li>
                                 <li>
                                     <a href="#"> <i class="icon-linkedin-2"></i></a>

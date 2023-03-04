@@ -27,7 +27,7 @@
     <div class="sc-offcanvas-list-info">
         <p class="des sc-mb-20">
             TRIAJA IT Services Private Limited is a company founded by industry professionals. Our staff comprises of
-            professionals from the industry who have in-depth knowledge about Hiring, Pre-Employment Screening, Human
+            professionals from the industry who have in-depth knowledge about IT Solutions, Hiring, Employee Background Verifications, Human
             Resources & Public Records Research.
         </p>
         <h4 class="product-title">Contact Info</h4>
@@ -60,9 +60,6 @@
             </li>
             <li>
                 <a href="#"><i class="icon-twiter"></i></a>
-            </li>
-            <li>
-                <a href="#"><i class="icon-intragram"></i></a>
             </li>
             <li>
                 <a href="https://www.linkedin.com/company/triaja-it-services-pvt-ltd/" target="_blank"><i class="icon-facebook-2"></i></a>

@@ -17,8 +17,8 @@ return [
 
     'name' => env('APP_NAME', 'TRIAJA IT Services PVT. LTD.'),
     'phone' => '+91 8879247439',
-    'email' => 'bgv@triaja.in',
-    'address' => 'FL B-301, PL 16,17/23,24 SECTOR 42 A, NERUL NAVI MUMBAI ,Thane MH 400706, India',
+    'email' => 'info@triaja.in',
+    'address' => 'FL B-301, PL 16,17/23,24 Sector 42 A, Nerul Navi Mumbai ,Thane< Maharashtra 400706, India',
     /*
     |--------------------------------------------------------------------------
     | Application Environment

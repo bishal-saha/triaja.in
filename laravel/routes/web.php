@@ -3,6 +3,8 @@
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PageController;
+use App\Http\Controllers\ProductsController;
+use App\Http\Controllers\ServicesController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,5 +24,25 @@ Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 
 Route::controller(PageController::class)->group(function () {
     Route::get('/about', 'about')->name('about');
+    Route::get('/our-approach', 'about')->name('approach');
     Route::get('/consulting', 'consulting')->name('consulting');
 });
+
+Route::controller(ProductsController::class)
+    ->prefix('products')
+    ->name('products.')
+    ->group(function () {
+        Route::get('/', 'index')->name('index');
+    });
+
+Route::controller(ServicesController::class)
+    ->prefix('services')
+    ->name('services.')
+    ->group(function () {
+        Route::get('/', 'index')->name('index');
+        Route::get('/bfsi-kyc', 'bfsiKyc')->name('bfsi.kyc');
+        Route::get('/background-verification', 'backgroundVerification')->name('background.verification');
+        Route::get('/bfsi-kyc', 'bfsiKyc')->name('bfsi.kyc');
+    });
+
+

@@ -6,7 +6,7 @@
                     <span class="sub-title"><i class="icon-line"></i> Feature Services</span>
 
                     <h2 class="title">
-                        Helping Solve Your Tough <span class="primary-color italic">Business</span> issues
+                        Cost Optimized Technologies and <span class="primary-color italic">Innovations</span>
                     </h2>
                 </div>
             </div>
@@ -20,14 +20,17 @@
                         </div>
                     </div>
                     <div class="sc-service-text">
-                        <h4><a class="title" href="service-details.html">Business Planning</a></h4>
+                        <h4><a class="title" href="{{ route('services.background.verification') }}">Background
+                                Verification Services</a></h4>
                         <p class="des sc-mb-25">
-                            Busto auctor lectus better best conbia euismot rhoncus dolora gorgeous system nicest
-                            does had blessed face winged female
+                            Advanced processes. Smart technology. Personalized service. Our full suite of compliant
+                            screening services lets you verify candidate backgrounds without sacrificing individualized
+                            attention or cutting any corners.
                         </p>
                     </div>
                     <div class="sc-service-btn">
-                        <a class="sc-transparent-btn" href="service-details.html">Read More</a>
+                        <a class="sc-transparent-btn" href="{{ route('services.background.verification') }}">Read
+                            More</a>
                     </div>
                 </div>
             </div>
@@ -39,14 +42,17 @@
                         </div>
                     </div>
                     <div class="sc-service-text">
-                        <h4><a class="title" href="service-details.html">Process Analysis</a></h4>
+                        <h4><a class="title" href="{{ route('services.index')  }}">BFSI KYC Services</a></h4>
                         <p class="des sc-mb-25">
-                            Busto auctor lectus better best conbia euismot rhoncus dolora gorgeous system nicest
-                            does had blessed face winged female
+                            Transform your KYC and customer identity verification with our
+                            services that can help you go-to-market faster and enhance your customer
+                            experience.
                         </p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </div>
                     <div class="sc-service-btn">
-                        <a class="sc-transparent-btn" href="service-details.html">Read More</a>
+                        <a class="sc-transparent-btn" href="{{ route('services.index')  }}">Read More</a>
                     </div>
                 </div>
             </div>
@@ -58,14 +64,16 @@
                         </div>
                     </div>
                     <div class="sc-service-text">
-                        <h4><a class="title" href="service-details.html">Organize Design</a></h4>
+                        <h4><a class="title" href="{{ route('services.index')  }}">Mobile & Web Application
+                                Development</a></h4>
                         <p class="des sc-mb-25">
-                            Busto auctor lectus better best conbia euismot rhoncus dolora gorgeous system nicest
-                            does had blessed face winged female
+                            Develop Android, iOS, web apps or a combination. Get guaranteed pricing and clear timelines
+                            for your app project
+                            . Keep your software up to date and bug free with aftercare
                         </p>
                     </div>
                     <div class="sc-service-btn">
-                        <a class="sc-transparent-btn" href="service-details.html">Read More</a>
+                        <a class="sc-transparent-btn" href="{{ route('services.index')  }}">Read More</a>
                     </div>
                 </div>
             </div>
@@ -75,14 +83,16 @@
                         <i class="icon-bussness"></i>
                     </div>
                     <div class="sc-service-text">
-                        <h4><a class="title" href="service-details.html">Demand Manage</a></h4>
+                        <h4><a class="title" href="s{{ route('services.index')  }}">Hiring Consulting</a></h4>
                         <p class="des sc-mb-25">
-                            Busto auctor lectus better best conbia euismot rhoncus dolora gorgeous system nicest
-                            does had blessed face winged female
+                            As the world's largest global provider of background screening solutions, we help
+                            organizations of all sizes hire the right people for the right opportunities.
                         </p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </div>
                     <div class="sc-service-btn">
-                        <a class="sc-transparent-btn" href="service-details.html">Read More</a>
+                        <a class="sc-transparent-btn" href="{{ route('services.index')  }}">Read More</a>
                     </div>
                 </div>
             </div>

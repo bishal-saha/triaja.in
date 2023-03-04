@@ -74,7 +74,7 @@
                         </div>
                     </div>
                     <div class="sc-form-btn">
-                        <a class="sc-white-btn" href="contact.html">Contact Us</a>
+                        <a class="sc-white-btn" href="#">Contact Us</a>
                     </div>
                 </div>
             </div>

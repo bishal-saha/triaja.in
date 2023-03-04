@@ -5,74 +5,24 @@
                 <div class="swiper-slide">
                     <div class="sc-brand-image-box">
                         <div class="sc-brand-image">
-                            <a href="#"><img src="assets/images/brand/brand.png" alt="Brand" /></a>
+                            <a href="#"><img src="{{ asset('assets/images/brand/iso.webp') }}" alt="Brand" /></a>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="sc-brand-image-box">
                         <div class="sc-brand-image">
-                            <a href="#"><img src="assets/images/brand/brand_1.png" alt="Brand" /></a>
+                            <a href="#"><img src="{{ asset('assets/images/brand/iso-2.webp') }}" alt="Brand" /></a>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="sc-brand-image-box">
                         <div class="sc-brand-image">
-                            <a href="#"><img src="assets/images/brand/brand_2.png" alt="Brand" /></a>
+                            <a href="#"><img src="{{ asset('assets/images/brand/startupindia.webp') }}" alt="Brand" /></a>
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
-                    <div class="sc-brand-image-box">
-                        <div class="sc-brand-image">
-                            <a href="#"><img src="assets/images/brand/brand_3.png" alt="Brand" /></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="sc-brand-image-box">
-                        <div class="sc-brand-image">
-                            <a href="#"><img src="assets/images/brand/brand_4.png" alt="Brand" /></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="sc-brand-image-box">
-                        <div class="sc-brand-image">
-                            <a href="#"><img src="assets/images/brand/brand.png" alt="Brand" /></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="sc-brand-image-box">
-                        <div class="sc-brand-image">
-                            <a href="#"><img src="assets/images/brand/brand_1.png" alt="Brand" /></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="sc-brand-image-box">
-                        <div class="sc-brand-image">
-                            <a href="#"><img src="assets/images/brand/brand_2.png" alt="Brand" /></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="sc-brand-image-box">
-                        <div class="sc-brand-image">
-                            <a href="#"><img src="assets/images/brand/brand_3.png" alt="Brand" /></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="sc-brand-image-box">
-                        <div class="sc-brand-image">
-                            <a href="#"><img src="assets/images/brand/brand_4.png" alt="Brand" /></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </div>
