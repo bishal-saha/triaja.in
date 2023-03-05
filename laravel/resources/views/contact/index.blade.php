@@ -1,6 +1,6 @@
 @extends('layouts.default')
 
-@section('page-title', 'Our Services')
+@section('page-title', 'Contact Us')
 
 @section('content')
     <!--=========== breadcrumb Section Start =========-->
@@ -9,14 +9,14 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="sc-slider-content p-z-idex">
-                        <div class="sc-slider-subtitle">Home - Our Services</div>
-                        <h1 class="slider-title white-color sc-mb-25 sc-sm-mb-15">Best Services</h1>
+                        <div class="sc-slider-subtitle">Home - Contact</div>
+                        <h1 class="slider-title white-color sc-mb-25 sc-sm-mb-15">Contact Us</h1>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!--=========== breadcrumb Section End =========-->
-    @include('services.partials.services')
-    @include('services.partials.why')
+    @include('contact.partials.form')
+    @include('contact.partials.map')
 @endsection

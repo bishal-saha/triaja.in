@@ -5,6 +5,6 @@ namespace App\Http\Controllers;
 class ContactController extends Controller
 {
     public function index() {
-        return view('home.index');
+        return view('contact.index');
     }
 }

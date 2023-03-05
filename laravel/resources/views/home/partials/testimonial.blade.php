@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-6" data-sal="slide-right" data-sal-duration="800">
                 <div class="testimonial-slider-image">
-                    <img src="assets/images/testimonial/slider-image.png" alt="Testimonial" />
+                    <img src="{{ asset('assets/images/testimonial/slider-image.png') }}" style="height: 400px" alt="Testimonial" />
                 </div>
             </div>
             <div class="col-lg-6 sc-md-mt-50" data-sal="slide-left" data-sal-duration="800">
@@ -25,9 +25,6 @@
                                         beast alrigh airot you ando divide subdue one margin herb light
                                     </p>
                                     <div class="sc-slider-auother d-flex align-items-center">
-                                        <div class="auother-image sc-mr-15">
-                                            <img src="assets/images/testimonial/small-slider.jpg" alt="Test" />
-                                        </div>
                                         <div class="sc-auother-texty">
                                             <h5 class="title">David Backum</h5>
                                             <span>Senior Marketing Manager</span>
@@ -43,9 +40,6 @@
                                         airot you ando divide subdue one margin herb light
                                     </p>
                                     <div class="sc-slider-auother d-flex align-items-center">
-                                        <div class="auother-image sc-mr-15">
-                                            <img src="assets/images/testimonial/small-slider1.jpg" alt="Test" />
-                                        </div>
                                         <div class="sc-auother-texty">
                                             <h5 class="title">David Backum</h5>
                                             <span>Senior Marketing Manager</span>
@@ -61,9 +55,6 @@
                                         wonora created sheller first two one margin herb light
                                     </p>
                                     <div class="sc-slider-auother d-flex align-items-center">
-                                        <div class="auother-image sc-mr-15">
-                                            <img src="assets/images/testimonial/small-slider2.jpg" alt="Test" />
-                                        </div>
                                         <div class="sc-auother-texty">
                                             <h5 class="title">David Backum</h5>
                                             <span>Senior Marketing Manager</span>

@@ -24,7 +24,7 @@ Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 
 Route::controller(PageController::class)->group(function () {
     Route::get('/about', 'about')->name('about');
-    Route::get('/our-approach', 'about')->name('approach');
+    Route::get('/our-approach', 'approach')->name('approach');
     Route::get('/consulting', 'consulting')->name('consulting');
 });
 

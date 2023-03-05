@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 class ServicesController extends Controller
 {
     public function index() {
-        return view('blank');
+        return view('services.index');
     }
 
     public function backgroundVerification() {

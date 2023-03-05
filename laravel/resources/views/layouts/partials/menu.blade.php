@@ -2,17 +2,17 @@
     <a class="active" href="{{ route('index') }}"> Home</a>
 </li>
 <li>
-    <a href="#"> About Us</a>
+    <a href="{{ route('about') }}"> About Us</a>
 </li>
 <li>
-    <a href="#"> Products</a>
+    <a href="{{ route('products.index') }}"> Products</a>
 </li>
 <li>
-    <a href="#"> Services</a>
+    <a href="{{ route('services.index') }}"> Services</a>
 </li>
 <li>
-    <a href="#"> Our Approach</a>
+    <a href="{{ route('approach') }}"> Our Approach</a>
 </li>
 <li>
-    <a href="#"> Contact Us</a>
+    <a href="{{ route('contact') }}"> Contact Us</a>
 </li>
